@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 data/new-raw-photos/
 data/web_photos/
+
+# Full-res hero source images (site uses data/web instead)
+data/heroes/
