@@ -4468,5 +4468,575 @@
     "behaviour": "resting under thick bush cover at night",
     "notes": "The image is heavily underexposed and obscured by branches, with only a small patch of the lion's mane illuminated by spotlight, making identification difficult and overall quality poor.",
     "file": "DSC_6722.JPG"
+  },
+  "DSC_6883.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 5,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "mating - a bull is mounting a cow while other herd members stand nearby",
+    "notes": "A fascinating capture of rarely photographed reproductive behaviour in Cape Buffalo, with the surrounding herd members adding excellent context to the scene and a real sense of the wild social dynamics at play.",
+    "file": "DSC_6883.JPG"
+  },
+  "DSC_6881.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 1,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "standing alert in grassland, gazing to the left with a calm but watchful demeanour",
+    "notes": "A stunning close-up portrait that beautifully captures the rugged texture of the boss, the intense eye, and the weathered character of this iconic Big Five member against a softly blurred background.",
+    "file": "DSC_6881.JPG"
+  },
+  "DSC_6863.JPG": {
+    "animal": "Hamerkop",
+    "scientific_name": "Scopus umbretta",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "standing on a rock at the water's edge, likely hunting for fish or frogs in the shallow flowing water",
+    "notes": "A beautifully composed capture of the distinctive Hamerkop with its unmistakable hammer-shaped head silhouetted against the flowing water, creating a wonderful sense of atmosphere and habitat context.",
+    "file": "DSC_6863.JPG"
+  },
+  "DSC_6879.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "walking through dry grassland, appearing alert and looking directly toward the camera with tail raised",
+    "notes": "A powerful and imposing portrait of a lone dagga boy \u2014 the direct eye contact, raised tail, and forward posture beautifully convey the formidable presence that makes Cape Buffalo one of Africa's most respected animals.",
+    "file": "DSC_6879.JPG"
+  },
+  "DSC_6902.JPG": {
+    "animal": "Lion",
+    "scientific_name": "Panthera leo",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "resting in grass at night, mouth slightly open, appearing to vocalize or pant",
+    "notes": "A powerful nighttime portrait that beautifully captures the majestic presence of this male lion, with the spotlight dramatically illuminating his impressive mane against the dark backdrop.",
+    "file": "DSC_6902.JPG"
+  },
+  "DSC_6897.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 1,
+    "quality_score": 4,
+    "technical_score": 3,
+    "behaviour": "carcass being scavenged, partially consumed kill lying under bush cover",
+    "notes": "This image captures the raw reality of the African bush \u2014 documenting a kill site is a valuable field observation that tells the story of predator-prey dynamics in the ecosystem.",
+    "file": "DSC_6897.JPG"
+  },
+  "DSC_6876.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "walking through dry bush and grass, head lowered, appearing to browse or move cautiously through vegetation",
+    "notes": "A wonderfully imposing portrait of a mature Cape Buffalo bull, with the characteristic heavy boss and curved horns beautifully framed by the African bush \u2014 the natural setting and the animal's direct gaze toward the camera create a powerful sense of presence.",
+    "file": "DSC_6876.JPG"
+  },
+  "DSC_6886.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 4,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "Two bulls sparring or head-butting in a dominance display, with additional herd members standing nearby in the bush",
+    "notes": "A fantastic capture of raw buffalo behaviour \u2014 the head-to-head clash between the two bulls conveys the power and intensity of these iconic Big Five animals beautifully.",
+    "file": "DSC_6886.JPG"
+  },
+  "DSC_6928.JPG": {
+    "animal": "African Elephant",
+    "scientific_name": "Loxodonta africana",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "Young elephant walking across a dirt track through bushveld",
+    "notes": "A wonderful capture of a juvenile elephant confidently crossing the path, with the moody overcast light and natural bush setting creating an atmospheric and authentic safari moment.",
+    "file": "DSC_6928.JPG"
+  },
+  "DSC_6935.JPG": {
+    "animal": "African Elephant",
+    "scientific_name": "Loxodonta africana",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "walking across a dirt road through bush, trunk extended downward",
+    "notes": "A wonderful close encounter capturing the sheer presence and scale of this elephant as it casually crosses the track, with the natural bushveld setting adding authentic safari atmosphere.",
+    "file": "DSC_6935.JPG"
+  },
+  "DSC_6926.JPG": {
+    "animal": "African Elephant",
+    "scientific_name": "Loxodonta africana",
+    "animal_count": 1,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "Walking along a dirt track through bush while curling its trunk, possibly feeding on vegetation",
+    "notes": "A wonderful encounter with a young elephant emerging from the bush in the fading light, and the curled trunk holding a small branch adds a lovely natural behaviour element to the scene.",
+    "file": "DSC_6926.JPG"
+  },
+  "DSC_6940.JPG": {
+    "animal": "African Elephant",
+    "scientific_name": "Loxodonta africana",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "walking across a dirt road through bushveld",
+    "notes": "A wonderful close-range capture of a bull elephant mid-stride crossing the track, showcasing the impressive bulk, textured skin, and visible tusks \u2014 a classic safari moment with great proximity and a strong sense of the animal's power.",
+    "file": "DSC_6940.JPG"
+  },
+  "DSC_6946.JPG": {
+    "animal": "African Elephant",
+    "scientific_name": "Loxodonta africana",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "Walking across a dirt track through the bush with trunk hanging down in a relaxed posture",
+    "notes": "A beautifully intimate close-range encounter capturing the elephant's magnificent wrinkled skin texture and short tusks in wonderful detail, with the natural bushveld setting providing an authentic safari atmosphere.",
+    "file": "DSC_6946.JPG"
+  },
+  "DSC_6956.JPG": {
+    "animal": "African Elephant",
+    "scientific_name": "Loxodonta africana",
+    "animal_count": 1,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "stripping bark from a tree trunk with its trunk, foraging in dense bush",
+    "notes": "A wonderful capture of natural elephant feeding behaviour \u2014 bark stripping is a fascinating and often underappreciated aspect of elephant ecology, and the proximity to the subject gives a real sense of the animal's power and texture.",
+    "file": "DSC_6956.JPG"
+  },
+  "DSC_6968.JPG": {
+    "animal": "White Rhino",
+    "scientific_name": "Ceratotherium simum",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "grazing in bushveld, head lowered browsing through grass and low vegetation",
+    "notes": "A wonderful sighting of this magnificent and endangered species in its natural bushveld habitat \u2014 the composition beautifully frames the rhino among the vegetation, conveying the quiet power and presence of this iconic animal.",
+    "file": "DSC_6968.JPG"
+  },
+  "DSC_6974.JPG": {
+    "animal": "White Rhino",
+    "scientific_name": "Ceratotherium simum",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "grazing with head lowered, browsing on low vegetation in bushveld",
+    "notes": "A wonderful close-range encounter with this magnificent dehorned rhino, capturing the incredible texture and folds of its thick skin beautifully against the muted African bushveld backdrop.",
+    "file": "DSC_6974.JPG"
+  },
+  "DSC_6958.JPG": {
+    "animal": "African Elephant",
+    "scientific_name": "Loxodonta africana",
+    "animal_count": 2,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "moving through dense bush, possibly browsing or stripping bark from a tree",
+    "notes": "A wonderfully intimate encounter capturing the elephant emerging from thick vegetation, with the smaller tusks and wrinkled skin beautifully detailed, and the stripped tree bark on the right telling a compelling story of elephant behaviour in the bush.",
+    "file": "DSC_6958.JPG"
+  },
+  "DSC_6973.JPG": {
+    "animal": "White Rhino",
+    "scientific_name": "Ceratotherium simum",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "grazing with head lowered, browsing on low vegetation",
+    "notes": "A wonderful close-range encounter with a dehorned rhino in its natural bushveld habitat \u2014 the full-body profile beautifully showcases the animal's powerful build and textured skin, and the muted tones lend a moody, atmospheric quality to the scene.",
+    "file": "DSC_6973.JPG"
+  },
+  "DSC_6976.JPG": {
+    "animal": "White Rhino",
+    "scientific_name": "Ceratotherium simum",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "grazing, walking slowly through dry grassland with head lowered",
+    "notes": "A wonderful close-range encounter with this dehorned rhino, capturing the incredible texture of its thick skin and the gentle intensity of its forward gaze in a beautifully intimate composition.",
+    "file": "DSC_6976.JPG"
+  },
+  "DSC_6979.JPG": {
+    "animal": "White Rhino",
+    "scientific_name": "Ceratotherium simum",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "grazing with head lowered, feeding on ground-level vegetation in dry bushveld",
+    "notes": "A wonderful close-range encounter with this magnificent rhino \u2014 the side-on profile beautifully showcases the animal's powerful build and distinctive wide mouth, and the muted bushveld tones create a moody, atmospheric composition.",
+    "file": "DSC_6979.JPG"
+  },
+  "DSC_6991.JPG": {
+    "animal": "White Rhino",
+    "scientific_name": "Ceratotherium simum",
+    "animal_count": 1,
+    "quality_score": 8,
+    "technical_score": 7,
+    "behaviour": "walking directly towards the camera along a narrow trail through bush",
+    "notes": "A powerful and intimate head-on perspective that conveys the sheer presence and imposing mass of this dehorned rhino, creating a dramatic and compelling wildlife portrait.",
+    "file": "DSC_6991.JPG"
+  },
+  "DSC_7008.JPG": {
+    "animal": "No Animal",
+    "scientific_name": "N/A",
+    "animal_count": 0,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "N/A",
+    "notes": "The atmospheric shot of a safari vehicle heading down a dusty bush track at dusk beautifully captures the anticipation and adventure of a game drive in the African wilderness.",
+    "file": "DSC_7008.JPG"
+  },
+  "DSC_6981.JPG": {
+    "animal": "White Rhino",
+    "scientific_name": "Ceratotherium simum",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "grazing with head lowered to the ground, feeding on short grass in bushveld",
+    "notes": "A powerful close-range encounter beautifully captured, showcasing the rhino's incredible textured skin and massive build against the muted African bushveld backdrop \u2014 the proximity and side-profile composition give a wonderful sense of this magnificent animal's presence.",
+    "file": "DSC_6981.JPG"
+  },
+  "DSC_6990.JPG": {
+    "animal": "White Rhino",
+    "scientific_name": "Ceratotherium simum",
+    "animal_count": 1,
+    "quality_score": 8,
+    "technical_score": 7,
+    "behaviour": "walking directly towards the camera along a narrow trail, head lowered, appearing to graze or browse",
+    "notes": "A striking head-on perspective that powerfully conveys the rhino's massive presence and imposing build \u2014 the direct eye contact and low angle create an intimate and dramatic encounter that few photographers achieve in the field.",
+    "file": "DSC_6990.JPG"
+  },
+  "DSC_7005.JPG": {
+    "animal": "Greater Kudu",
+    "scientific_name": "Tragelaphus strepsiceros",
+    "animal_count": 1,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "alert and walking near the bush edge, pausing to scan surroundings before crossing a dirt track",
+    "notes": "A lovely capture of a female kudu showcasing her characteristic vertical white body stripes, and the soft, muted bushveld tones create a beautifully atmospheric African wilderness scene.",
+    "file": "DSC_7005.JPG"
+  },
+  "DSC_6995.JPG": {
+    "animal": "White Rhino",
+    "scientific_name": "Ceratotherium simum",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "grazing with head lowered, feeding on grass along a pathway in the bush",
+    "notes": "A wonderful close encounter with a dehorned white rhino \u2014 the head-on perspective emphasizes the animal's impressive bulk and textured skin, and the soft bush background beautifully frames this magnificent creature.",
+    "file": "DSC_6995.JPG"
+  },
+  "DSC_7003.JPG": {
+    "animal": "Greater Kudu",
+    "scientific_name": "Tragelaphus strepsiceros",
+    "animal_count": 1,
+    "quality_score": 5,
+    "technical_score": 4,
+    "behaviour": "walking through dense bushveld, browsing among the trees",
+    "notes": "The vertical white stripes on the kudu's flank are beautifully visible, and the natural woodland framing gives this image an authentic and atmospheric feel of a real bush encounter.",
+    "file": "DSC_7003.JPG"
+  },
+  "DSC_7031.JPG": {
+    "animal": "Nyala",
+    "scientific_name": "Tragelaphus angasii",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "running across open grassland, likely startled or moving between cover",
+    "notes": "A fantastic action shot capturing a magnificent male nyala in full stride, beautifully showcasing his distinctive white vertical stripes, shaggy dark coat, and impressive spiral horns \u2014 a wonderful sighting of this often elusive antelope.",
+    "file": "DSC_7031.JPG"
+  },
+  "DSC_7023.JPG": {
+    "animal": "Nyala",
+    "scientific_name": "Tragelaphus angasii",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "standing alert, looking back over its shoulder toward the camera",
+    "notes": "A wonderful capture of a male nyala displaying its characteristic white vertical body stripes and spiral horns, with the alert backward glance adding a dynamic and engaging quality to the composition.",
+    "file": "DSC_7023.JPG"
+  },
+  "DSC_6992.JPG": {
+    "animal": "White Rhino",
+    "scientific_name": "Ceratotherium simum",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "grazing on short grass along a path in bushveld",
+    "notes": "A powerful close-up perspective that emphasizes the rhino's massive build and textured skin, and the head-on composition creates an intimate and dramatic encounter with this magnificent dehorned animal.",
+    "file": "DSC_6992.JPG"
+  },
+  "DSC_7029.JPG": {
+    "animal": "Nyala",
+    "scientific_name": "Tragelaphus angasii",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "standing alert in grassland, looking back over its shoulder",
+    "notes": "A beautifully composed portrait of a male nyala showcasing his distinctive spiral horns, shaggy mane, and characteristic white vertical body stripes against a soft, natural background.",
+    "file": "DSC_7029.JPG"
+  },
+  "DSC_7014.JPG": {
+    "animal": "Cape Glossy Starling",
+    "scientific_name": "Lamprotornis nitens",
+    "animal_count": 1,
+    "quality_score": 5,
+    "technical_score": 5,
+    "behaviour": "walking on bare ground, likely foraging",
+    "notes": "The striking iridescent blue-black plumage of the starling contrasts beautifully against the warm red-brown African soil, creating a pleasing colour palette that highlights this often-overlooked safari gem.",
+    "file": "DSC_7014.JPG"
+  },
+  "DSC_7033.JPG": {
+    "animal": "Nyala",
+    "scientific_name": "Tragelaphus angasii",
+    "animal_count": 1,
+    "quality_score": 8,
+    "technical_score": 7,
+    "behaviour": "walking through grassland in a relaxed trot",
+    "notes": "A stunning capture of a male nyala in full stride, beautifully showcasing his distinctive white vertical stripes, shaggy mane, and impressive spiral horns against the natural bushveld backdrop.",
+    "file": "DSC_7033.JPG"
+  },
+  "DSC_7072.JPG": {
+    "animal": "Hippo",
+    "scientific_name": "Hippopotamus amphibius",
+    "animal_count": 2,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "partially submerged in water with only heads visible, alert and watching the photographer",
+    "notes": "A lovely capture of two hippos peeking above the waterline \u2014 the framing with the foreground grasses adds a natural, candid feel that nicely conveys the experience of spotting these elusive giants on safari.",
+    "file": "DSC_7072.JPG"
+  },
+  "DSC_7065.JPG": {
+    "animal": "Hippo",
+    "scientific_name": "Hippopotamus amphibius",
+    "animal_count": 3,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "Submerged in river with eyes and nostrils above water, one hippo exhaling a spray of water from its nostrils",
+    "notes": "Wonderful capture of the classic hippo snort spray \u2014 this fleeting moment of exhalation adds real dynamism and authenticity to the scene, framed nicely by the lush riverbank vegetation.",
+    "file": "DSC_7065.JPG"
+  },
+  "DSC_7067.JPG": {
+    "animal": "Hippo",
+    "scientific_name": "Hippopotamus amphibius",
+    "animal_count": 2,
+    "quality_score": 5,
+    "technical_score": 5,
+    "behaviour": "partially submerged in river with only eyes, ears, and nostrils visible above the waterline",
+    "notes": "A wonderfully atmospheric capture of a hippo in its natural riverine habitat, with the lush overhanging vegetation and murky green water perfectly conveying the feel of an African waterway.",
+    "file": "DSC_7067.JPG"
+  },
+  "DSC_7066.JPG": {
+    "animal": "Hippo",
+    "scientific_name": "Hippopotamus amphibius",
+    "animal_count": 2,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "Submerged in a river with head partially above water, appearing alert and watching the photographer, with a second hippo creating splashes nearby",
+    "notes": "The natural riverine setting with overhanging vegetation beautifully frames this classic hippo scene, capturing the quintessential safari moment of a hippo peering just above the waterline with those wonderfully expressive eyes.",
+    "file": "DSC_7066.JPG"
+  },
+  "DSC_7079.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "standing alert, looking towards the camera in a clearing among bush vegetation",
+    "notes": "The natural framing of green foliage on either side beautifully draws the eye to this handsome male impala, creating a wonderful sense of peering into the African bush and discovering wildlife in its element.",
+    "file": "DSC_7079.JPG"
+  },
+  "DSC_7070.JPG": {
+    "animal": "Hippo",
+    "scientific_name": "Hippopotamus amphibius",
+    "animal_count": 2,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "partially submerged in water with heads emerging, appearing alert and watching the photographer",
+    "notes": "A lovely capture of two hippos peering curiously from the water, creating a charming and characteristic scene that beautifully conveys the semi-aquatic nature of these magnificent animals.",
+    "file": "DSC_7070.JPG"
+  },
+  "DSC_7080.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 3,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "Small bachelor group of rams standing and browsing among dry bushveld vegetation",
+    "notes": "Lovely natural composition capturing three impala rams with their elegant lyre-shaped horns in warm golden light, with the dry African bushveld providing an authentic and atmospheric backdrop.",
+    "file": "DSC_7080.JPG"
+  },
+  "DSC_7087.JPG": {
+    "animal": "Warthog",
+    "scientific_name": "Phacochoerus africanus",
+    "animal_count": 2,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "foraging on open ground, walking slowly with head lowered",
+    "notes": "Excellent side-profile capture showcasing the warthog's impressive tusks and coarse mane in wonderful detail, with a second individual adding depth to the scene.",
+    "file": "DSC_7087.JPG"
+  },
+  "DSC_7091.JPG": {
+    "animal": "Warthog",
+    "scientific_name": "Phacochoerus africanus",
+    "animal_count": 2,
+    "quality_score": 6,
+    "technical_score": 6,
+    "behaviour": "foraging through dry grassland, walking and browsing in bush habitat",
+    "notes": "Great capture of the warthog's impressive tusks and characterful face in its natural bushveld habitat, with a nice bonus of the second individual partially visible on the right adding depth to the scene.",
+    "file": "DSC_7091.JPG"
+  },
+  "DSC_7097.JPG": {
+    "animal": "Warthog",
+    "scientific_name": "Phacochoerus africanus",
+    "animal_count": 2,
+    "quality_score": 6,
+    "technical_score": 6,
+    "behaviour": "foraging in dry grassland, with one individual facing the camera displaying prominent tusks while the other grazes nearby",
+    "notes": "Great capture of the warthog's characterful face and tusks in a natural bushveld setting, with the pair nicely illustrating typical foraging behaviour in the African savanna.",
+    "file": "DSC_7097.JPG"
+  },
+  "DSC_7082.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 3,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "Two males sparring with locked horns while a third grazes nearby",
+    "notes": "Fantastic capture of male impala sparring behaviour \u2014 the moment of horn contact between the two rivals is dynamic and tells a compelling story of competition during the rut.",
+    "file": "DSC_7082.JPG"
+  },
+  "DSC_7096.JPG": {
+    "animal": "Warthog",
+    "scientific_name": "Phacochoerus africanus",
+    "animal_count": 2,
+    "quality_score": 6,
+    "technical_score": 6,
+    "behaviour": "foraging and walking through dry grassland",
+    "notes": "Great capture of a warthog pair in their natural bushveld habitat, with the prominent tusks and characteristic facial warts clearly visible on the foreground individual.",
+    "file": "DSC_7096.JPG"
+  },
+  "DSC_7095.JPG": {
+    "animal": "Warthog",
+    "scientific_name": "Phacochoerus africanus",
+    "animal_count": 2,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "walking towards the camera through dry grassland, appearing alert and curious",
+    "notes": "A wonderful head-on portrait of a warthog with its characteristic tusks and facial warts clearly visible, set beautifully against the warm tones of the African bushveld.",
+    "file": "DSC_7095.JPG"
+  },
+  "DSC_7083.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 3,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "Standing alert while others graze nearby in dry woodland",
+    "notes": "Excellent profile shot of the male impala with its elegant lyre-shaped horns beautifully visible, and the warm golden-hour light enhances the natural tones of the African bushveld.",
+    "file": "DSC_7083.JPG"
+  },
+  "DSC_7093.JPG": {
+    "animal": "Warthog",
+    "scientific_name": "Phacochoerus africanus",
+    "animal_count": 2,
+    "quality_score": 6,
+    "technical_score": 6,
+    "behaviour": "foraging in dry grassland near a dirt track",
+    "notes": "Great capture of the warthog in its natural bushveld habitat, with the warm earthy tones of the dry grass and red soil creating a wonderfully authentic African safari atmosphere.",
+    "file": "DSC_7093.JPG"
+  },
+  "DSC_7100.JPG": {
+    "animal": "Warthog",
+    "scientific_name": "Phacochoerus africanus",
+    "animal_count": 2,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "foraging through dry grass, moving forward with heads lowered",
+    "notes": "Excellent capture of a pair of warthogs in their natural habitat, with the layered composition nicely separating the two individuals and showcasing their characterful tusks and coarse manes.",
+    "file": "DSC_7100.JPG"
+  },
+  "DSC_7101.JPG": {
+    "animal": "Warthog",
+    "scientific_name": "Phacochoerus africanus",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "walking through dry grassland, alert and moving steadily",
+    "notes": "Excellent close-up portrait capturing the warthog's characterful tusks and bristly mane in beautiful detail, with the muted tones of the dry grass creating a wonderfully natural African bushveld atmosphere.",
+    "file": "DSC_7101.JPG"
+  },
+  "DSC_7104.JPG": {
+    "animal": "Warthog",
+    "scientific_name": "Phacochoerus africanus",
+    "animal_count": 3,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "Adult and juvenile crossing a sandy dirt road together, with a third individual partially visible on the right edge",
+    "notes": "The composition beautifully frames the warthogs on a winding bush road with soft bokeh creating a lovely depth, and the interaction between adult and young adds a wonderful storytelling element to the scene.",
+    "file": "DSC_7104.JPG"
+  },
+  "DSC_7110.JPG": {
+    "animal": "Baboon",
+    "scientific_name": "Papio ursinus",
+    "animal_count": 18,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "A troop moving together along a dirt road, foraging and walking as a group with adults and juveniles",
+    "notes": "This is a wonderful capture of natural troop behaviour \u2014 the dusty road framed by African bush creates a beautifully atmospheric scene that conveys the rhythm of daily baboon life on safari.",
+    "file": "DSC_7110.JPG"
+  },
+  "DSC_7126.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 6,
+    "quality_score": 5,
+    "technical_score": 5,
+    "behaviour": "A small herd of female impalas standing alert among dense bush, appearing cautious and watchful",
+    "notes": "Great observation of a naturally behaving impala herd partially concealed in the bush \u2014 the layered composition with animals at varying depths nicely conveys the feel of spotting wildlife in thick African woodland.",
+    "file": "DSC_7126.JPG"
+  },
+  "DSC_7112.JPG": {
+    "animal": "Baboon",
+    "scientific_name": "Papio ursinus",
+    "animal_count": 15,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "A troop moving along a dirt road, with adults and juveniles walking and foraging together",
+    "notes": "This is a wonderful capture of natural troop behaviour on the move \u2014 the dusty road framed by African bush creates a classic safari atmosphere that beautifully conveys the scale and social dynamics of a baboon troop.",
+    "file": "DSC_7112.JPG"
+  },
+  "DSC_7130.JPG": {
+    "animal": "Vervet Monkey",
+    "scientific_name": "Chlorocebus pygerythrus",
+    "animal_count": 1,
+    "quality_score": 5,
+    "technical_score": 5,
+    "behaviour": "sitting on a dirt road, appearing relaxed and looking toward the camera",
+    "notes": "Great capture of a vervet monkey in its natural habitat \u2014 the warm tones of the African dirt road and the dappled shade from the bush create an authentic safari atmosphere that really sets the scene.",
+    "file": "DSC_7130.JPG"
+  },
+  "DSC_7118.JPG": {
+    "animal": "Wildebeest",
+    "scientific_name": "Connochaetes taurinus",
+    "animal_count": 1,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "standing alert in bushveld, looking toward the camera",
+    "notes": "A wonderful encounter with a blue wildebeest \u2014 the direct eye contact and the natural woodland framing give this image a strong sense of presence and intimacy with the subject.",
+    "file": "DSC_7118.JPG"
+  },
+  "DSC_7119.JPG": {
+    "animal": "Wildebeest",
+    "scientific_name": "Connochaetes taurinus",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "standing alert in bushveld, looking towards the camera while chewing grass",
+    "notes": "A beautifully composed portrait of a blue wildebeest in its natural bushveld habitat, with the soft background bokeh nicely isolating the subject and highlighting the animal's impressive muscular build and distinctive curved horns.",
+    "file": "DSC_7119.JPG"
   }
 }
