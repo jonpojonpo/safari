@@ -22,6 +22,7 @@ PHOTOS_DIRS = [
     Path.home() / "safari" / "data" / "new-raw-photos",
     Path.home() / "safari" / "data" / "new-raw-photo2",
     Path.home() / "safari" / "data" / "new-raw-photo3",
+    Path.home() / "safari" / "data" / "new-raw-photo4",
 ]
 OUT_DIR = Path.home() / "safari" / "data"
 CLASSIFICATIONS_FILE = OUT_DIR / "classifications.json"
@@ -443,13 +444,47 @@ def build_html(selected: dict, animal_info: dict) -> str:
     print(f"STAGE 5: Build HTML Logbook")
     print(f"{'─'*60}")
 
-    animals = sorted(selected.keys())
+    # The Big Five lead the journal in their traditional order; the rest follow A–Z.
+    BIG_FIVE = ["Lion", "Leopard", "African Elephant", "Cape Buffalo", "White Rhino"]
+    big_five_present = [a for a in BIG_FIVE if a in selected]
+    big_five_set = set(big_five_present)
+    others = sorted(a for a in selected if a not in big_five_set)
+    animals = big_five_present + others
 
-    # ── Nav items
+    def anchor_of(a: str) -> str:
+        return safe_text(a.replace(" ", "-").lower())
+
+    def hero_src_of(a: str) -> str:
+        return f"data/heroes/{Path(selected[a][0]['file']).stem}_hero.jpg"
+
+    # ── Nav items (Big Five flagged with a star)
     nav_items = "\n".join(
-        f'<li><a href="#animal-{safe_text(a.replace(" ", "-").lower())}" class="nav-link">{safe_text(a)}</a></li>'
+        f'<li><a href="#animal-{anchor_of(a)}" class="nav-link{" nav-big5" if a in big_five_set else ""}">'
+        f'{"★ " if a in big_five_set else ""}{safe_text(a)}</a></li>'
         for a in animals
     )
+
+    # ── Big Five showcase band (only when the full set is present)
+    big_five_band = ""
+    if len(big_five_present) == 5:
+        tiles = "\n".join(
+            f'''<a class="bf-tile" href="#animal-{anchor_of(a)}" style="background-image:url('{hero_src_of(a)}')">
+          <span class="bf-tile-overlay"></span>
+          <span class="bf-tile-name">{safe_text(a)}</span>
+        </a>'''
+            for a in big_five_present
+        )
+        big_five_band = f'''
+<section class="bigfive-band">
+  <div class="bigfive-head">
+    <div class="bigfive-eyebrow">The Big Five — Complete</div>
+    <h2 class="bigfive-title">Africa's Legendary Five</h2>
+    <p class="bigfive-sub">Lion, leopard, elephant, buffalo and rhino — the full set, photographed in the field.</p>
+  </div>
+  <div class="bigfive-grid">
+    {tiles}
+  </div>
+</section>'''
 
     # ── Animal sections
     def make_animal_section(animal: str, photos: list, info: dict) -> str:
@@ -505,6 +540,7 @@ def build_html(selected: dict, animal_info: dict) -> str:
     <div class="hero-wrap">
       <img class="hero-img" src="{hero_src}" alt="{safe_text(animal)}" loading="lazy">
       <div class="hero-overlay">
+        {'<div class="hero-big5">★ Big Five</div>' if animal in big_five_set else ''}
         <div class="hero-sci">{sci_name}</div>
         <h2 class="hero-name">{safe_text(animal)}</h2>
         <p class="hero-tagline">{tagline}</p>
@@ -785,12 +821,13 @@ def build_html(selected: dict, animal_info: dict) -> str:
       padding: 4rem 2rem 5rem;
     }}
     .content-main {{
-      max-width: 1100px;
+      max-width: 1000px;
       margin: 0 auto;
-      padding-left: 100px;
     }}
-    @media (max-width: 900px) {{
-      .content-main {{ padding-left: 0; }}
+    /* On wide screens reserve room for the fixed side-nav, then centre the
+       content within the remaining space so margins stay balanced. */
+    @media (min-width: 1100px) {{
+      .content-wrap {{ padding-left: 160px; padding-right: 160px; }}
     }}
     .intro-text {{
       font-family: var(--serif);
@@ -1035,6 +1072,107 @@ def build_html(selected: dict, animal_info: dict) -> str:
       color: var(--border);
     }}
 
+    /* ── Big Five: cover badge ── */
+    .cover-big5 {{
+      margin: -0.5rem auto 2.5rem;
+      padding: 0.45rem 1.4rem;
+      border: 1px solid var(--gold);
+      border-radius: 2px;
+      color: var(--gold-light);
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.22em;
+      text-transform: uppercase;
+      background: rgba(201,162,39,0.06);
+    }}
+
+    /* ── Big Five: showcase band ── */
+    .bigfive-band {{
+      background: linear-gradient(180deg, #050505, var(--dark));
+      padding: 4.5rem 2rem 5rem;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }}
+    .bigfive-head {{ text-align: center; max-width: 720px; margin: 0 auto 2.5rem; }}
+    .bigfive-eyebrow {{
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.25em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }}
+    .bigfive-title {{
+      font-family: var(--serif);
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 0.8rem;
+    }}
+    .bigfive-sub {{
+      font-family: var(--serif);
+      font-style: italic;
+      color: var(--text-dim);
+      font-size: 1.05rem;
+    }}
+    .bigfive-grid {{
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 6px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }}
+    @media (max-width: 900px) {{
+      .bigfive-grid {{ grid-template-columns: repeat(2, 1fr); }}
+    }}
+    @media (max-width: 520px) {{
+      .bigfive-grid {{ grid-template-columns: 1fr; }}
+    }}
+    .bf-tile {{
+      position: relative;
+      display: block;
+      aspect-ratio: 3/4;
+      background-size: cover;
+      background-position: center;
+      overflow: hidden;
+      text-decoration: none;
+    }}
+    .bf-tile-overlay {{
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(transparent 35%, rgba(0,0,0,0.85));
+      transition: background 0.3s ease;
+    }}
+    .bf-tile:hover .bf-tile-overlay {{ background: linear-gradient(rgba(201,162,39,0.12), rgba(0,0,0,0.85)); }}
+    .bf-tile-name {{
+      position: absolute;
+      bottom: 1rem;
+      left: 0;
+      right: 0;
+      text-align: center;
+      font-family: var(--serif);
+      font-size: 1.1rem;
+      color: #fff;
+      letter-spacing: 0.02em;
+      text-shadow: 0 1px 8px rgba(0,0,0,0.8);
+    }}
+
+    /* ── Big Five: hero ribbon + nav star ── */
+    .hero-big5 {{
+      display: inline-block;
+      margin-bottom: 0.8rem;
+      padding: 0.3rem 0.9rem;
+      background: var(--gold);
+      color: #1a1200;
+      font-family: var(--sans);
+      font-size: 0.62rem;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      text-transform: uppercase;
+      border-radius: 2px;
+    }}
+    .nav-big5 {{ color: var(--gold) !important; }}
+
     /* Scrollbar */
     ::-webkit-scrollbar {{ width: 6px; }}
     ::-webkit-scrollbar-track {{ background: var(--black); }}
@@ -1057,6 +1195,7 @@ def build_html(selected: dict, animal_info: dict) -> str:
   <div class="cover-eyebrow">A Wildlife Field Journal</div>
   <h1 class="cover-title">Safari</h1>
   <p class="cover-subtitle">An intimate encounter with Africa's wild creatures, told through the lens</p>
+  {'<div class="cover-big5">★ Big Five — Complete Set ★</div>' if len(big_five_present) == 5 else ''}
   <div class="cover-stats">
     <div class="cover-stat">
       <div class="cover-stat-num">{all_animals_count}</div>
@@ -1073,6 +1212,7 @@ def build_html(selected: dict, animal_info: dict) -> str:
   </div>
   <div class="scroll-hint">↓ &nbsp; scroll to explore</div>
 </header>
+{big_five_band}
 
 <!-- Animal Sections -->
 {"".join(f'<div class="section-divider"></div>{make_animal_section(a, selected[a], animal_info)}' for a in animals)}

@@ -2170,7 +2170,7 @@
     "file": "DSC_6490.JPG"
   },
   "DSC_6491.JPG": {
-    "animal": "Rhino",
+    "animal": "White Rhino",
     "scientific_name": "Rhinoceros unicornis",
     "animal_count": 1,
     "quality_score": 2,
@@ -5038,5 +5038,925 @@
     "behaviour": "standing alert in bushveld, looking towards the camera while chewing grass",
     "notes": "A beautifully composed portrait of a blue wildebeest in its natural bushveld habitat, with the soft background bokeh nicely isolating the subject and highlighting the animal's impressive muscular build and distinctive curved horns.",
     "file": "DSC_7119.JPG"
+  },
+  "DSC_7206.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "running across a dirt road",
+    "notes": "Wonderful capture of motion as the impala leaps across the track, conveying real energy and the spontaneity of a genuine safari moment.",
+    "file": "DSC_7206.JPG"
+  },
+  "DSC_7207.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 1,
+    "quality_score": 6,
+    "technical_score": 4,
+    "behaviour": "running and leaping across a dirt road",
+    "notes": "You captured a wonderful moment of motion as the impala bounds across the track, and the dynamic mid-leap pose conveys real energy and life in the scene.",
+    "file": "DSC_7207.JPG"
+  },
+  "DSC_7209.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "running across a dirt road",
+    "notes": "Wonderful capture of dynamic motion as the impala leaps across the track, conveying the energy and atmosphere of dawn on safari.",
+    "file": "DSC_7209.JPG"
+  },
+  "DSC_7208.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 1,
+    "quality_score": 4,
+    "technical_score": 4,
+    "behaviour": "running and leaping across a dirt road",
+    "notes": "You captured a wonderful sense of motion as the impala bounds across the track, conveying the spontaneous energy of a real safari moment.",
+    "file": "DSC_7208.JPG"
+  },
+  "DSC_7211.JPG": {
+    "animal": "Hippo",
+    "scientific_name": "Hippopotamus amphibius",
+    "animal_count": 1,
+    "quality_score": 4,
+    "technical_score": 5,
+    "behaviour": "resting on the muddy bank near the water's edge",
+    "notes": "The muted, atmospheric tones of this waterhole scene give a wonderfully authentic sense of the wild African landscape and the animal's natural resting habitat.",
+    "file": "DSC_7211.JPG"
+  },
+  "DSC_7210.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 1,
+    "quality_score": 5,
+    "technical_score": 4,
+    "behaviour": "running across the road",
+    "notes": "Lovely sense of motion and atmosphere with the impala caught mid-stride at dusk, and including the observer's silhouette adds a wonderful storytelling element to this safari moment.",
+    "file": "DSC_7210.JPG"
+  },
+  "DSC_7212.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 4,
+    "technical_score": 3,
+    "behaviour": "resting at water's edge",
+    "notes": "A wonderful atmospheric capture of a tiger blending into its natural waterhole habitat \u2014 the moody reflections and wild setting tell a beautiful story of patient field observation.",
+    "file": "DSC_7212.JPG"
+  },
+  "DSC_7213.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 5,
+    "technical_score": 4,
+    "behaviour": "drinking at the water's edge",
+    "notes": "A wonderfully atmospheric scene where the tiger blends into its natural habitat, capturing the wild, secretive essence of a waterhole at dusk.",
+    "file": "DSC_7213.JPG"
+  },
+  "DSC_7215.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 4,
+    "technical_score": 3,
+    "behaviour": "resting near the water's edge, partially camouflaged",
+    "notes": "A wonderfully atmospheric scene capturing the elusive nature of a leopard blending into the dim riverbank\u2014the moody low light and reflective water create a real sense of wild authenticity.",
+    "file": "DSC_7215.JPG"
+  },
+  "DSC_7214.JPG": {
+    "animal": "No Animal",
+    "scientific_name": "N/A",
+    "animal_count": 0,
+    "quality_score": 4,
+    "technical_score": 5,
+    "behaviour": "none",
+    "notes": "The moody, low-light atmosphere over the still water and reflected branches creates a beautifully serene and contemplative wilderness scene.",
+    "file": "DSC_7214.JPG"
+  },
+  "DSC_7216.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 5,
+    "technical_score": 4,
+    "behaviour": "resting at the water's edge",
+    "notes": "The moody twilight atmosphere and the tiger tucked into the far bank create a wonderfully authentic sense of a wild, undisturbed habitat.",
+    "file": "DSC_7216.JPG"
+  },
+  "DSC_7217.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 4,
+    "technical_score": 4,
+    "behaviour": "resting near the water's edge",
+    "notes": "A wonderfully atmospheric scene with the leopard subtly tucked into the riverbank vegetation, capturing the secretive nature of this elusive cat in low evening light.",
+    "file": "DSC_7217.JPG"
+  },
+  "DSC_7219.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 5,
+    "behaviour": "walking along the water's edge",
+    "notes": "The mirror-like reflection of the leopard in the still water creates a beautifully atmospheric and serene composition that perfectly captures the quiet drama of a waterhole at dusk.",
+    "file": "DSC_7219.JPG"
+  },
+  "DSC_7218.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 5,
+    "technical_score": 4,
+    "behaviour": "sitting at the water's edge, possibly preparing to drink",
+    "notes": "The moody low-light atmosphere and the elusive leopard tucked into the far bank create a wonderfully authentic sense of a wild encounter at dawn.",
+    "file": "DSC_7218.JPG"
+  },
+  "DSC_7221.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "walking along the water's edge",
+    "notes": "A beautifully atmospheric scene with the leopard's reflection mirrored in the still water, capturing a quiet and authentic wilderness moment.",
+    "file": "DSC_7221.JPG"
+  },
+  "DSC_7220.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 7,
+    "technical_score": 6,
+    "behaviour": "walking along the water's edge",
+    "notes": "A beautiful atmospheric capture of a leopard at the waterline with its reflection mirrored in the still water\u2014a wonderfully evocative wilderness moment.",
+    "file": "DSC_7220.JPG"
+  },
+  "DSC_7223.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "walking along the waterhole edge",
+    "notes": "The reflection of the leopard mirrored in the still water creates a beautiful, serene atmosphere that elevates this classic safari moment.",
+    "file": "DSC_7223.JPG"
+  },
+  "DSC_7222.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "approaching the water's edge to drink",
+    "notes": "The mirror-like reflection of the leopard in the still water creates a wonderfully atmospheric and intimate moment that rewards patient field observation.",
+    "file": "DSC_7222.JPG"
+  },
+  "DSC_7224.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "approaching the water's edge to drink",
+    "notes": "A wonderfully atmospheric scene with the leopard's reflection mirrored in the still waterhole, capturing the quiet tension of a wild moment at dusk.",
+    "file": "DSC_7224.JPG"
+  },
+  "DSC_7225.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "walking along the water's edge",
+    "notes": "A beautifully atmospheric scene with the leopard's reflection mirrored in the still water\u2014a wonderful environmental portrait that captures the secretive nature of this elusive cat in its habitat.",
+    "file": "DSC_7225.JPG"
+  },
+  "DSC_7226.JPG": {
+    "animal": "Leopard",
+    "scientific_name": "Panthera pardus",
+    "animal_count": 1,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "walking along the water's edge",
+    "notes": "A wonderful environmental shot capturing the leopard within its full habitat, with the moody waterhole and dense bushveld creating a beautifully atmospheric sense of place.",
+    "file": "DSC_7226.JPG"
+  },
+  "DSC_7227.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 1,
+    "quality_score": 6,
+    "technical_score": 5,
+    "behaviour": "standing alert and browsing in dense bush",
+    "notes": "Lovely natural framing through the bushveld foliage gives this male impala a wonderfully authentic, candid-encounter feel.",
+    "file": "DSC_7227.JPG"
+  },
+  "DSC_7228.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 2,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "standing alert and looking directly at the camera",
+    "notes": "Beautiful direct eye contact with the male impala creates an engaging connection, and the soft natural bushveld light gives this image a lovely authentic safari atmosphere.",
+    "file": "DSC_7228.JPG"
+  },
+  "DSC_7229.JPG": {
+    "animal": "Impala",
+    "scientific_name": "Aepyceros melampus",
+    "animal_count": 3,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "grazing/foraging in tall grass",
+    "notes": "Beautiful soft natural light and the elegant curved horns of the male impala create a wonderfully authentic bushveld scene with great depth from the supporting herd in the background.",
+    "file": "DSC_7229.JPG"
+  },
+  "DSC_7250.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 1,
+    "quality_score": 4,
+    "technical_score": 4,
+    "behaviour": "resting in dense bush",
+    "notes": "A wonderfully atmospheric glimpse of a Cape buffalo partially hidden in the bush, capturing the authentic challenge and reward of spotting wildlife in thick cover.",
+    "file": "DSC_7250.JPG"
+  },
+  "DSC_7251.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 3,
+    "quality_score": 6,
+    "technical_score": 6,
+    "behaviour": "moving toward the waterhole to drink",
+    "notes": "Lovely natural setting with the buffalo framed by lush bush and the reflective waterhole adding wonderful depth and atmosphere to the scene.",
+    "file": "DSC_7251.JPG"
+  },
+  "DSC_7253.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 3,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking at a waterhole",
+    "notes": "The mirror-like reflection of the drinking buffalo in the muddy water creates a wonderfully serene and atmospheric composition.",
+    "file": "DSC_7253.JPG"
+  },
+  "DSC_7252.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 4,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and standing at a muddy waterhole",
+    "notes": "Lovely natural scene with the buffalo reflections in the still water adding wonderful depth and atmosphere to the composition.",
+    "file": "DSC_7252.JPG"
+  },
+  "DSC_7258.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 20,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene at the water's edge that beautifully captures the social dynamics and quiet atmosphere of buffalo at a waterhole.",
+    "file": "DSC_7258.JPG"
+  },
+  "DSC_7259.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 20,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene that captures the social behaviour of Cape buffalo congregating at water, with lovely reflections adding atmosphere to the composition.",
+    "file": "DSC_7259.JPG"
+  },
+  "DSC_7260.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 16,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and standing at a waterhole",
+    "notes": "A wonderful herd scene at the water's edge, with the large foreground buffalo anchoring the composition beautifully and the reflections adding lovely atmosphere.",
+    "file": "DSC_7260.JPG"
+  },
+  "DSC_7261.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 20,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and standing at a waterhole",
+    "notes": "A wonderful herd scene at the water's edge with lovely reflections and great storytelling about buffalo congregating to drink.",
+    "file": "DSC_7261.JPG"
+  },
+  "DSC_7263.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 14,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and wading at a waterhole",
+    "notes": "A wonderful herd scene with strong storytelling\u2014the foreground buffalo striding through the water adds dynamic energy and depth to the composition.",
+    "file": "DSC_7263.JPG"
+  },
+  "DSC_7262.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 9,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking at a waterhole",
+    "notes": "A wonderful herd scene with multiple buffalo gathered at the water's edge, beautifully capturing natural drinking behaviour and the calm reflective atmosphere of the waterhole.",
+    "file": "DSC_7262.JPG"
+  },
+  "DSC_7264.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "wading and drinking at a waterhole",
+    "notes": "A wonderful herd scene with the foreground buffalo crisply rendered against the reflective water, capturing the scale and social nature of the herd beautifully.",
+    "file": "DSC_7264.JPG"
+  },
+  "DSC_7265.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 18,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "wading and drinking at a waterhole",
+    "notes": "A wonderful herd scene at the water's edge \u2014 the reflections and the lead buffalo crossing the foreground add lovely depth and storytelling to this image.",
+    "file": "DSC_7265.JPG"
+  },
+  "DSC_7267.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and standing at a waterhole",
+    "notes": "A wonderful herd scene at the waterhole, with the foreground buffalo drinking creating a strong focal point and excellent depth across the group.",
+    "file": "DSC_7267.JPG"
+  },
+  "DSC_7266.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 20,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and wading at a waterhole",
+    "notes": "A wonderful herd scene at the waterhole, with the foreground buffalo sharply captured mid-drink and a beautifully natural sense of the whole group congregating.",
+    "file": "DSC_7266.JPG"
+  },
+  "DSC_7269.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 12,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and wading in water",
+    "notes": "Beautiful capture of a buffalo herd at a waterhole, with the foreground individual sharply focused and reflected in the calm water for a serene, atmospheric scene.",
+    "file": "DSC_7269.JPG"
+  },
+  "DSC_7268.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 9,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking at a waterhole",
+    "notes": "A wonderful herd scene captured at the water's edge, with the buffalo's curved horns and reflections adding great depth and a strong sense of place.",
+    "file": "DSC_7268.JPG"
+  },
+  "DSC_7270.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and wading at a waterhole",
+    "notes": "A wonderful herd scene with the foreground buffalo beautifully sharp and the reflections in the water adding lovely depth and atmosphere.",
+    "file": "DSC_7270.JPG"
+  },
+  "DSC_7271.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 20,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and wading at a waterhole",
+    "notes": "A wonderful herd scene captured at the waterhole, with the foreground buffalo beautifully sharp and the reflections adding lovely atmosphere to this classic safari moment.",
+    "file": "DSC_7271.JPG"
+  },
+  "DSC_7272.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 40,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderfully atmospheric herd scene with strong depth and a charming calf in the foreground that adds wonderful storytelling to the composition.",
+    "file": "DSC_7272.JPG"
+  },
+  "DSC_7273.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene at the waterhole, with the young calf in the foreground adding lovely depth and storytelling to the composition.",
+    "file": "DSC_7273.JPG"
+  },
+  "DSC_7274.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene at the waterhole, capturing the social dynamics and the tender presence of a calf among the adults\u2014great storytelling in a single frame.",
+    "file": "DSC_7274.JPG"
+  },
+  "DSC_7275.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and standing at a waterhole",
+    "notes": "A wonderful capture of a large buffalo herd at the water's edge, with the reflections and the calf among the adults adding lovely depth and storytelling to the scene.",
+    "file": "DSC_7275.JPG"
+  },
+  "DSC_7276.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 12,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "standing in water, drinking and gathering as a herd",
+    "notes": "The direct gaze of the central buffalo creates a striking focal point, and the dense herd behind it conveys a wonderful sense of the animal's social nature and the atmosphere of a busy waterhole.",
+    "file": "DSC_7276.JPG"
+  },
+  "DSC_7277.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 8,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "standing in water, with the central buffalo gazing directly at the camera",
+    "notes": "The direct eye contact from the foreground buffalo creates a powerful, engaging focal point, beautifully capturing the imposing presence of the herd at the waterhole.",
+    "file": "DSC_7277.JPG"
+  },
+  "DSC_7278.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 8,
+    "technical_score": 7,
+    "behaviour": "drinking at a waterhole",
+    "notes": "A wonderful herd scene at the water's edge, with the young calf in the foreground adding lovely depth and storytelling to the composition.",
+    "file": "DSC_7278.JPG"
+  },
+  "DSC_7279.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene at the waterhole, with the young calf drinking in the foreground adding lovely depth and storytelling to the composition.",
+    "file": "DSC_7279.JPG"
+  },
+  "DSC_7280.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and crossing water at a waterhole",
+    "notes": "A wonderful herd scene capturing the social dynamics of Cape buffalo, with the calf adding lovely depth and the water reflections enriching the composition.",
+    "file": "DSC_7280.JPG"
+  },
+  "DSC_7281.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 7,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "wading through water with the herd",
+    "notes": "Excellent sharp detail on the lead buffalo's weathered horns and face, with the herd creating a strong sense of place and movement in the water.",
+    "file": "DSC_7281.JPG"
+  },
+  "DSC_7282.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and gathering at a muddy waterhole",
+    "notes": "A wonderful herd scene full of life and natural behaviour, with the foreground buffalo drinking beautifully anchoring the composition.",
+    "file": "DSC_7282.JPG"
+  },
+  "DSC_7283.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 20,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and standing at a waterhole",
+    "notes": "A wonderful herd scene with the central buffalo's striking pose and tongue-out gesture creating a captivating focal point amid the gathered group.",
+    "file": "DSC_7283.JPG"
+  },
+  "DSC_7284.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 20,
+    "quality_score": 8,
+    "technical_score": 7,
+    "behaviour": "drinking and wading at a waterhole",
+    "notes": "A wonderfully atmospheric herd scene, with the central buffalo making direct eye contact for a powerful focal point amid the gathering at the water.",
+    "file": "DSC_7284.JPG"
+  },
+  "DSC_7285.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene with great depth and storytelling, especially the calf in the foreground adding a lovely focal point amid the bustling waterhole activity.",
+    "file": "DSC_7285.JPG"
+  },
+  "DSC_7286.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 9,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and interacting at a waterhole, adult nuzzling a calf",
+    "notes": "A wonderful tender moment between an adult and calf anchors this herd scene beautifully, with the reflections in the muddy water adding lovely atmosphere.",
+    "file": "DSC_7286.JPG"
+  },
+  "DSC_7287.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene with a tender adult-and-calf interaction in the foreground, beautifully capturing the social atmosphere of buffalo at the water's edge.",
+    "file": "DSC_7287.JPG"
+  },
+  "DSC_7288.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene with the sharp foreground calf and drinking buffalo anchoring a beautifully layered composition of the whole congregation.",
+    "file": "DSC_7288.JPG"
+  },
+  "DSC_7289.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 40,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene capturing the social dynamics at the water's edge, with the foreground buffalo and calf beautifully sharp against a busy, atmospheric backdrop.",
+    "file": "DSC_7289.JPG"
+  },
+  "DSC_7291.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene at the water's edge, with the young calf in the foreground adding a lovely focal point and conveying the social atmosphere of the buffalo gathering.",
+    "file": "DSC_7291.JPG"
+  },
+  "DSC_7290.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 15,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "wading and drinking at a waterhole as a herd",
+    "notes": "Excellent capture of a buffalo herd at the waterhole, with the foreground bull tack-sharp and full of character against the reflective water.",
+    "file": "DSC_7290.JPG"
+  },
+  "DSC_7292.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene with a charming calf in the foreground, capturing the social atmosphere of these buffalo at the water beautifully.",
+    "file": "DSC_7292.JPG"
+  },
+  "DSC_7293.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and resting at a waterhole",
+    "notes": "A wonderful herd scene capturing rich social dynamics at the waterhole, with the drinking buffalo and the young calf in the foreground adding lovely depth and storytelling to the composition.",
+    "file": "DSC_7293.JPG"
+  },
+  "DSC_7294.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene at the waterhole, with the two facing buffalo in the centre creating a strong focal point and the calf adding lovely depth to the composition.",
+    "file": "DSC_7294.JPG"
+  },
+  "DSC_7295.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene with strong depth and the sweet detail of a calf in the foreground, capturing the social atmosphere of these buffalo beautifully.",
+    "file": "DSC_7295.JPG"
+  },
+  "DSC_7296.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 20,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "herd drinking and wading at a waterhole",
+    "notes": "A wonderful herd shot with the foreground buffalo and calf in sharp focus, beautifully capturing the social atmosphere of the gathering at the water.",
+    "file": "DSC_7296.JPG"
+  },
+  "DSC_7297.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "herd moving through mud near water, adult licking nose while calf walks alongside",
+    "notes": "Wonderful capture of a large buffalo herd with rich detail in the foreground animals and a strong sense of the watering hole atmosphere.",
+    "file": "DSC_7297.JPG"
+  },
+  "DSC_7298.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "gathering and drinking at a muddy waterhole",
+    "notes": "A wonderfully atmospheric herd scene with strong storytelling\u2014the calf in the foreground and the massive gathering at the water create real depth and a genuine sense of place.",
+    "file": "DSC_7298.JPG"
+  },
+  "DSC_7299.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 40,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "herd gathering at a waterhole to drink and cool down",
+    "notes": "A wonderful capture of a large buffalo herd at the water, with the central buffalo facing the camera making a strong, characterful focal point amid the gathered numbers.",
+    "file": "DSC_7299.JPG"
+  },
+  "DSC_7300.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 12,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "herd moving through water and mud, with the foreground individual standing alert",
+    "notes": "Beautiful capture of a buffalo herd at a watering hole, with the sharply focused foreground bull and its impressive horns creating a striking focal point against the busy, atmospheric herd behind.",
+    "file": "DSC_7300.JPG"
+  },
+  "DSC_7301.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "herd gathering and resting at a muddy waterhole",
+    "notes": "The foreground buffalo is beautifully sharp with striking horn detail, and the massive herd behind it conveys a wonderful sense of scale and wild atmosphere.",
+    "file": "DSC_7301.JPG"
+  },
+  "DSC_7302.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 30,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "herd gathering and drinking at a muddy waterhole",
+    "notes": "A wonderful capture of a large buffalo herd at a watering point, with several individuals gazing straight at the camera for great eye contact and a strong sense of scale.",
+    "file": "DSC_7302.JPG"
+  },
+  "DSC_7304.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderfully atmospheric herd scene at the water's edge, with strong depth and a lovely sense of the buffalo's social gathering behaviour.",
+    "file": "DSC_7304.JPG"
+  },
+  "DSC_7303.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and gathering at a waterhole",
+    "notes": "A wonderful herd scene capturing the social dynamics of Cape buffalo at a waterhole, with great depth and a strong sense of place.",
+    "file": "DSC_7303.JPG"
+  },
+  "DSC_7306.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "drinking and crossing water at a waterhole",
+    "notes": "A wonderful herd scene with sharp foreground subjects and a strong sense of scale that captures the social dynamics of a buffalo gathering beautifully.",
+    "file": "DSC_7306.JPG"
+  },
+  "DSC_7305.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "herd wading and drinking at a waterhole",
+    "notes": "A wonderful capture of a large buffalo herd at the water, with the unusual reddish-brown individual in the centre adding a striking focal point amid the gathering.",
+    "file": "DSC_7305.JPG"
+  },
+  "DSC_7307.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "herd moving through and gathering at a muddy waterhole",
+    "notes": "Excellent capture of a large buffalo herd with the two foreground bulls beautifully sharp, their massive bosses and horns rendered in crisp detail against an atmospheric backdrop of the gathered herd.",
+    "file": "DSC_7307.JPG"
+  },
+  "DSC_7308.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 12,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "standing in water at a waterhole, herd drinking and gathering",
+    "notes": "The central buffalo's direct gaze and impressive boss create a powerful focal point, beautifully anchoring the rich herd dynamics behind it.",
+    "file": "DSC_7308.JPG"
+  },
+  "DSC_7309.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 6,
+    "quality_score": 7,
+    "technical_score": 8,
+    "behaviour": "drinking and standing in a waterhole",
+    "notes": "Beautifully sharp detail on the foreground buffalo's hide and horns, with the herd at the waterhole creating a wonderful sense of natural behaviour and atmosphere.",
+    "file": "DSC_7309.JPG"
+  },
+  "DSC_7311.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 8,
+    "quality_score": 8,
+    "behaviour": "wading and moving through water at a waterhole",
+    "technical_score": 8,
+    "notes": "The sharply focused foreground buffalo with its impressive boss and the herd softly blurred behind creates a wonderful sense of depth and atmosphere at the waterhole.",
+    "file": "DSC_7311.JPG"
+  },
+  "DSC_7310.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 12,
+    "quality_score": 8,
+    "technical_score": 7,
+    "behaviour": "crossing water with the herd, splashing as it moves",
+    "notes": "The foreground buffalo is beautifully sharp with dramatic water splashes that capture energetic herd movement, making for a dynamic and atmospheric river-crossing scene.",
+    "file": "DSC_7310.JPG"
+  },
+  "DSC_7312.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "crossing water and drinking at a waterhole",
+    "notes": "A wonderfully dynamic herd scene with the buffalo wading through water, conveying the scale and energy of a large group on the move.",
+    "file": "DSC_7312.JPG"
+  },
+  "DSC_7313.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 25,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "wading and drinking at a waterhole",
+    "notes": "A wonderful herd scene with the foreground bull sharply rendered against the water, capturing the social dynamics of the gathering beautifully.",
+    "file": "DSC_7313.JPG"
+  },
+  "DSC_7314.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 12,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "walking near a waterhole with the herd",
+    "notes": "Excellent capture of a lone buffalo striding forward with a dense herd behind, creating a strong sense of scale and atmosphere at the watering area.",
+    "file": "DSC_7314.JPG"
+  },
+  "DSC_7315.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 6,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "standing in water after drinking, with strands of saliva visible",
+    "notes": "The razor-sharp focus on the foreground buffalo's massive boss and horns, set against the softly blurred herd, creates a powerful and intimate portrait full of character.",
+    "file": "DSC_7315.JPG"
+  },
+  "DSC_7316.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 11,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "drinking and wading at a waterhole",
+    "notes": "A wonderful herd gathering at the water creates a strong sense of place and natural behaviour, with great detail in the buffalo in the foreground.",
+    "file": "DSC_7316.JPG"
+  },
+  "DSC_7317.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 9,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "wading and cooling off in water",
+    "notes": "A wonderful capture of a buffalo herd gathered at the water, conveying a strong sense of group behaviour and a serene natural atmosphere.",
+    "file": "DSC_7317.JPG"
+  },
+  "DSC_7319.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 4,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "standing alert, calf positioned protectively within the herd",
+    "notes": "Lovely intergenerational moment with the calf framed beautifully against the adults, capturing the protective dynamics of the herd.",
+    "file": "DSC_7319.JPG"
+  },
+  "DSC_7318.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 8,
+    "quality_score": 7,
+    "technical_score": 7,
+    "behaviour": "herd standing and resting in shaded bush",
+    "notes": "Wonderful capture of a dense buffalo herd with a striking close-up of the bull's massive boss, plus a lovely detail of the red-billed oxpecker perched on its back.",
+    "file": "DSC_7318.JPG"
+  },
+  "DSC_7320.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 5,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "standing alert with a calf in the herd, an oxpecker perched on one buffalo's horn",
+    "notes": "Wonderful family grouping with the protected calf framed between adults, and the oxpecker on the horn adds a delightful storytelling detail.",
+    "file": "DSC_7320.JPG"
+  },
+  "DSC_7321.JPG": {
+    "animal": "Cape Buffalo",
+    "scientific_name": "Syncerus caffer",
+    "animal_count": 6,
+    "quality_score": 8,
+    "technical_score": 8,
+    "behaviour": "resting and standing in herd, with oxpecker birds perched on one buffalo",
+    "notes": "Wonderful herd composition with a striking direct gaze from the central buffalo and the lovely detail of oxpeckers, capturing an authentic symbiotic moment in soft natural light.",
+    "file": "DSC_7321.JPG"
   }
 }
