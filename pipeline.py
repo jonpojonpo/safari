@@ -459,7 +459,8 @@ def build_html(selected: dict, animal_info: dict) -> str:
 
     # ── Nav items (Big Five flagged with a star)
     nav_items = "\n".join(
-        f'<li><a href="#animal-{anchor_of(a)}" class="nav-link{" nav-big5" if a in big_five_set else ""}">'
+        f'<li><a href="#animal-{anchor_of(a)}" title="{safe_text(a)}" '
+        f'class="nav-link{" nav-big5" if a in big_five_set else ""}">'
         f'{"★ " if a in big_five_set else ""}{safe_text(a)}</a></li>'
         for a in animals
     )
@@ -498,6 +499,7 @@ def build_html(selected: dict, animal_info: dict) -> str:
         info_data = info.get(animal, {})
         tagline = safe_text(info_data.get("tagline", animal))
         intro = safe_text(info_data.get("intro", ""))
+        field_note = safe_text(info_data.get("field_note", ""))
         habitat = safe_text(info_data.get("habitat", ""))
         behaviour = safe_text(info_data.get("behaviour", ""))
         conservation = safe_text(info_data.get("conservation", ""))
@@ -554,6 +556,7 @@ def build_html(selected: dict, animal_info: dict) -> str:
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">{intro}</p>
+        {f'<div class="field-note"><span class="field-note-label">◈ From the Field — The Find</span><p>{field_note}</p></div>' if field_note else ''}
         <figure class="detail-feature" onclick='openLightbox({js_text(hero_src)}, {js_text(detail_src)}, {js_text(best_behaviour)}, {js_text(best_note)})'>
           <img src="{detail_src}" alt="Detail crop of {safe_text(animal)}" loading="lazy">
           <figcaption>
@@ -741,6 +744,9 @@ def build_html(selected: dict, animal_info: dict) -> str:
       border-left: 2px solid transparent;
       transition: all 0.2s;
       white-space: nowrap;
+      max-width: 170px;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }}
     .side-nav .nav-link:hover {{
       color: var(--gold);
@@ -837,6 +843,30 @@ def build_html(selected: dict, animal_info: dict) -> str:
       margin-bottom: 3rem;
       padding-bottom: 2rem;
       border-bottom: 1px solid var(--border);
+    }}
+
+    .field-note {{
+      margin: -1rem 0 2.5rem;
+      padding: 1.4rem 1.6rem;
+      background: linear-gradient(135deg, rgba(201,162,39,0.10), rgba(255,255,255,0.02));
+      border-left: 3px solid var(--gold);
+    }}
+    .field-note-label {{
+      display: block;
+      font-family: var(--sans);
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.7rem;
+    }}
+    .field-note p {{
+      font-family: var(--serif);
+      font-size: 1.1rem;
+      font-style: italic;
+      line-height: 1.7;
+      color: rgba(216,208,192,0.95);
     }}
 
     .detail-feature {{

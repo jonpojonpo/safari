@@ -138,6 +138,9 @@
       border-left: 2px solid transparent;
       transition: all 0.2s;
       white-space: nowrap;
+      max-width: 170px;
+      overflow: hidden;
+      text-overflow: ellipsis;
     }
     .side-nav .nav-link:hover {
       color: var(--gold);
@@ -234,6 +237,30 @@
       margin-bottom: 3rem;
       padding-bottom: 2rem;
       border-bottom: 1px solid var(--border);
+    }
+
+    .field-note {
+      margin: -1rem 0 2.5rem;
+      padding: 1.4rem 1.6rem;
+      background: linear-gradient(135deg, rgba(201,162,39,0.10), rgba(255,255,255,0.02));
+      border-left: 3px solid var(--gold);
+    }
+    .field-note-label {
+      display: block;
+      font-family: var(--sans);
+      font-size: 0.65rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.7rem;
+    }
+    .field-note p {
+      font-family: var(--serif);
+      font-size: 1.1rem;
+      font-style: italic;
+      line-height: 1.7;
+      color: rgba(216,208,192,0.95);
     }
 
     .detail-feature {
@@ -582,39 +609,39 @@
 <!-- Side Navigation -->
 <nav class="side-nav" aria-label="Animal navigation">
   <ul>
-    <li><a href="#animal-lion" class="nav-link nav-big5">★ Lion</a></li>
-<li><a href="#animal-leopard" class="nav-link nav-big5">★ Leopard</a></li>
-<li><a href="#animal-african-elephant" class="nav-link nav-big5">★ African Elephant</a></li>
-<li><a href="#animal-cape-buffalo" class="nav-link nav-big5">★ Cape Buffalo</a></li>
-<li><a href="#animal-white-rhino" class="nav-link nav-big5">★ White Rhino</a></li>
-<li><a href="#animal-baboon" class="nav-link">Baboon</a></li>
-<li><a href="#animal-bulbul" class="nav-link">Bulbul</a></li>
-<li><a href="#animal-cape-glossy-starling" class="nav-link">Cape Glossy Starling</a></li>
-<li><a href="#animal-caracal" class="nav-link">Caracal</a></li>
-<li><a href="#animal-cheetah" class="nav-link">Cheetah</a></li>
-<li><a href="#animal-crocodile" class="nav-link">Crocodile</a></li>
-<li><a href="#animal-dark-capped-bulbul" class="nav-link">Dark-capped Bulbul</a></li>
-<li><a href="#animal-fork-tailed-drongo" class="nav-link">Fork-tailed Drongo</a></li>
-<li><a href="#animal-greater-kudu" class="nav-link">Greater Kudu</a></li>
-<li><a href="#animal-grey-go-away-bird" class="nav-link">Grey Go-away-bird</a></li>
-<li><a href="#animal-hamerkop" class="nav-link">Hamerkop</a></li>
-<li><a href="#animal-hippo" class="nav-link">Hippo</a></li>
-<li><a href="#animal-hooded-vulture" class="nav-link">Hooded Vulture</a></li>
-<li><a href="#animal-impala" class="nav-link">Impala</a></li>
-<li><a href="#animal-kingfisher" class="nav-link">Kingfisher</a></li>
-<li><a href="#animal-malachite-kingfisher" class="nav-link">Malachite Kingfisher</a></li>
-<li><a href="#animal-marabou-stork" class="nav-link">Marabou Stork</a></li>
-<li><a href="#animal-nyala" class="nav-link">Nyala</a></li>
-<li><a href="#animal-puff-adder" class="nav-link">Puff Adder</a></li>
-<li><a href="#animal-southern-yellow-billed-hornbill" class="nav-link">Southern Yellow-billed Hornbill</a></li>
-<li><a href="#animal-vervet-monkey" class="nav-link">Vervet Monkey</a></li>
-<li><a href="#animal-vulture" class="nav-link">Vulture</a></li>
-<li><a href="#animal-warthog" class="nav-link">Warthog</a></li>
-<li><a href="#animal-white-backed-vulture" class="nav-link">White-backed Vulture</a></li>
-<li><a href="#animal-white-headed-vulture" class="nav-link">White-headed Vulture</a></li>
-<li><a href="#animal-wildebeest" class="nav-link">Wildebeest</a></li>
-<li><a href="#animal-woodpecker" class="nav-link">Woodpecker</a></li>
-<li><a href="#animal-zebra" class="nav-link">Zebra</a></li>
+    <li><a href="#animal-lion" title="Lion" class="nav-link nav-big5">★ Lion</a></li>
+<li><a href="#animal-leopard" title="Leopard" class="nav-link nav-big5">★ Leopard</a></li>
+<li><a href="#animal-african-elephant" title="African Elephant" class="nav-link nav-big5">★ African Elephant</a></li>
+<li><a href="#animal-cape-buffalo" title="Cape Buffalo" class="nav-link nav-big5">★ Cape Buffalo</a></li>
+<li><a href="#animal-white-rhino" title="White Rhino" class="nav-link nav-big5">★ White Rhino</a></li>
+<li><a href="#animal-baboon" title="Baboon" class="nav-link">Baboon</a></li>
+<li><a href="#animal-bulbul" title="Bulbul" class="nav-link">Bulbul</a></li>
+<li><a href="#animal-cape-glossy-starling" title="Cape Glossy Starling" class="nav-link">Cape Glossy Starling</a></li>
+<li><a href="#animal-caracal" title="Caracal" class="nav-link">Caracal</a></li>
+<li><a href="#animal-cheetah" title="Cheetah" class="nav-link">Cheetah</a></li>
+<li><a href="#animal-crocodile" title="Crocodile" class="nav-link">Crocodile</a></li>
+<li><a href="#animal-dark-capped-bulbul" title="Dark-capped Bulbul" class="nav-link">Dark-capped Bulbul</a></li>
+<li><a href="#animal-fork-tailed-drongo" title="Fork-tailed Drongo" class="nav-link">Fork-tailed Drongo</a></li>
+<li><a href="#animal-greater-kudu" title="Greater Kudu" class="nav-link">Greater Kudu</a></li>
+<li><a href="#animal-grey-go-away-bird" title="Grey Go-away-bird" class="nav-link">Grey Go-away-bird</a></li>
+<li><a href="#animal-hamerkop" title="Hamerkop" class="nav-link">Hamerkop</a></li>
+<li><a href="#animal-hippo" title="Hippo" class="nav-link">Hippo</a></li>
+<li><a href="#animal-hooded-vulture" title="Hooded Vulture" class="nav-link">Hooded Vulture</a></li>
+<li><a href="#animal-impala" title="Impala" class="nav-link">Impala</a></li>
+<li><a href="#animal-kingfisher" title="Kingfisher" class="nav-link">Kingfisher</a></li>
+<li><a href="#animal-malachite-kingfisher" title="Malachite Kingfisher" class="nav-link">Malachite Kingfisher</a></li>
+<li><a href="#animal-marabou-stork" title="Marabou Stork" class="nav-link">Marabou Stork</a></li>
+<li><a href="#animal-nyala" title="Nyala" class="nav-link">Nyala</a></li>
+<li><a href="#animal-puff-adder" title="Puff Adder" class="nav-link">Puff Adder</a></li>
+<li><a href="#animal-southern-yellow-billed-hornbill" title="Southern Yellow-billed Hornbill" class="nav-link">Southern Yellow-billed Hornbill</a></li>
+<li><a href="#animal-vervet-monkey" title="Vervet Monkey" class="nav-link">Vervet Monkey</a></li>
+<li><a href="#animal-vulture" title="Vulture" class="nav-link">Vulture</a></li>
+<li><a href="#animal-warthog" title="Warthog" class="nav-link">Warthog</a></li>
+<li><a href="#animal-white-backed-vulture" title="White-backed Vulture" class="nav-link">White-backed Vulture</a></li>
+<li><a href="#animal-white-headed-vulture" title="White-headed Vulture" class="nav-link">White-headed Vulture</a></li>
+<li><a href="#animal-wildebeest" title="Wildebeest" class="nav-link">Wildebeest</a></li>
+<li><a href="#animal-woodpecker" title="Woodpecker" class="nav-link">Woodpecker</a></li>
+<li><a href="#animal-zebra" title="Zebra" class="nav-link">Zebra</a></li>
   </ul>
 </nav>
 
@@ -692,6 +719,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">As the amber light of dusk spills across the Serengeti, a deep, guttural roar tears through the stillness — a sound that carries eight kilometers and stops every living creature in its tracks. The lion, Africa&#x27;s most formidable apex predator, commands the plains not merely through brute strength but through an intricate web of alliance, ambush, and ancestral dominance that has evolved over hundreds of thousands of years. To witness a pride on the move is to glimpse the raw, unedited machinery of the wild — power distilled into tawny muscle and unblinking golden eyes.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6698_hero.jpg", "data/details/DSC_6698_detail.jpg", "resting on a dirt track, looking back over its shoulder toward the camera", "A standout frame: the composition brings out the character of the Lion and the atmosphere of the encounter.")'>
           <img src="data/details/DSC_6698_detail.jpg" alt="Detail crop of Lion" loading="lazy">
           <figcaption>
@@ -790,6 +818,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">A rosette-dappled shadow flows like liquid gold through the tangled branches of a marula tree, a freshly killed impala draped impossibly across the bough beside it. The leopard is Africa&#x27;s most elusive great cat — a master of stealth so perfectly engineered for concealment that entire prides of lions and clans of hyenas may pass beneath it without ever sensing the killer overhead. To witness one in the wild is to catch nature in the act of perfecting silence.</p>
+        <div class="field-note"><span class="field-note-label">◈ From the Field — The Find</span><p>The leopard came at first light. After the lions, the elephants, the buffalo and the rhino, only the fifth and most elusive of the Big Five was still missing — and then, across the still water of a dawn waterhole, a lone leopard eased out of the shadows on the far bank. It rested a moment, then padded slowly along the water&#x27;s edge and lowered its head to drink before slipping back into the bush. Distant and dim in the grey morning light, these frames will never win a prize — but they are the ones that mattered, the encounter that completed the set. Big Five: seen, and photographed.</p></div>
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_7219_hero.jpg", "data/details/DSC_7219_detail.jpg", "walking along the water's edge", "A lovely field-journal image, catching the Leopard in walking along the water's edge with a clear sense of place.")'>
           <img src="data/details/DSC_7219_detail.jpg" alt="Detail crop of Leopard" loading="lazy">
           <figcaption>
@@ -888,6 +917,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">A dust cloud rises on the savanna horizon, and then they appear — a matriarch leading her family in a slow, deliberate procession across the amber plains, each footfall a seismic whisper felt by herds miles away. The African elephant is the largest land animal on Earth, a keystone titan whose very existence shapes forests, carves waterholes, and writes the script of the wilderness. To stand in their presence is to feel the raw, trembling pulse of a continent.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6447_hero.jpg", "data/details/DSC_6447_detail.jpg", "walking directly toward the camera through dense bush", "A standout frame: the composition brings out the character of the African Elephant and the atmosphere of the encounter.")'>
           <img src="data/details/DSC_6447_detail.jpg" alt="Detail crop of African Elephant" loading="lazy">
           <figcaption>
@@ -986,6 +1016,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">There is no mistaking the gaze of a Cape buffalo. From beneath a massive boss of fused horn, dark eyes fix upon you with an intelligence that is neither curiosity nor indifference — it is appraisal. To encounter a herd moving through the African bush, a thousand hooves drumming the red earth in unison, is to witness one of the continent&#x27;s last great spectacles of raw, collective power.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6881_hero.jpg", "data/details/DSC_6881_detail.jpg", "standing alert in grassland, gazing to the left with a calm but watchful demeanour", "A standout frame: the composition brings out the character of the Cape Buffalo and the atmosphere of the encounter.")'>
           <img src="data/details/DSC_6881_detail.jpg" alt="Detail crop of Cape Buffalo" loading="lazy">
           <figcaption>
@@ -1084,6 +1115,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">A dust cloud rises from the golden savanna as two tons of living prehistory lower a squared lip to the earth, methodically mowing grass with the efficiency of a machine that evolution perfected over fifty million years. The white rhino — neither white nor docile when provoked — is the largest pure grazer on the planet, a gentle titan whose very survival has become one of conservation&#x27;s most urgent and heartbreaking battles. To stand in its presence is to feel the weight of deep time, and to confront the terrifying fragility of the wild.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6991_hero.jpg", "data/details/DSC_6991_detail.jpg", "walking directly towards the camera along a narrow trail through bush", "A standout frame: the composition brings out the character of the White Rhino and the atmosphere of the encounter.")'>
           <img src="data/details/DSC_6991_detail.jpg" alt="Detail crop of White Rhino" loading="lazy">
           <figcaption>
@@ -1182,6 +1214,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">In the golden dust of a South African dawn, a troop of chacma baboons moves across the granite koppies like a ragged army — watchful, vocal, and bound by alliances forged through grooming, conflict, and blood. These are no ordinary primates: they are strategists, opportunists, and among the most socially sophisticated animals on the continent. To observe them closely, as a patient photographer must, is to witness a mirror of our own triumphs and failings played out on the African stage.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_7110_hero.jpg", "data/details/DSC_7110_detail.jpg", "A troop moving together along a dirt road, foraging and walking as a group with adults and juveniles", "A lovely field-journal image, catching the Baboon in A troop moving together along a dirt road, foraging and walking as a group with adults and juveniles with a clear sense of place.")'>
           <img src="data/details/DSC_7110_detail.jpg" alt="Detail crop of Baboon" loading="lazy">
           <figcaption>
@@ -1256,6 +1289,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Before the sun has fully crested the acacia canopy, a sharp, jubilant call shatters the dawn silence — the Common Bulbul has announced the new day. With its sooty plumage, dark intelligent eyes, and a wisp of a crest raised like a tiny battle standard, this unassuming bird commands attention far beyond what its modest size would suggest. It is the voice of sub-Saharan Africa, as inseparable from the continent&#x27;s soundscape as the rumble of distant thunder on the savanna.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6373_hero.jpg", "data/details/DSC_6373_detail.jpg", "perching in tree canopy among branches", "An honest safari moment: even in challenging light and movement, the frame preserves the thrill of spotting the Bulbul.")'>
           <img src="data/details/DSC_6373_detail.jpg" alt="Detail crop of Bulbul" loading="lazy">
           <figcaption>
@@ -1322,6 +1356,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Catch it in the right light, and the Cape Glossy Starling doesn&#x27;t simply shine — it detonates in colour, its plumage erupting in electric blues, emerald greens, and molten violets that seem almost impossible for a feather to contain. This is a bird that rewards the patient observer, the one who lingers at the waterhole or the campsite mopane tree, because every shift of angle unveils a new spectrum hammered into its iridescent armour. To photograph one well is to understand that light itself is the co-author of its beauty.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_7014_hero.jpg", "data/details/DSC_7014_detail.jpg", "walking on bare ground, likely foraging", "An honest safari moment: even in challenging light and movement, the frame preserves the thrill of spotting the Cape Glossy Starling.")'>
           <img src="data/details/DSC_7014_detail.jpg" alt="Detail crop of Cape Glossy Starling" loading="lazy">
           <figcaption>
@@ -1388,6 +1423,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">In the fading amber light of an African dusk, a silhouette explodes from the scrub — a caracal, launching nearly three metres skyward to snatch a startled dove from mid-flight with a single, devastating swipe of its paw. Few predators marry such lethal precision with such breathtaking grace. This is the cat that ancient Persians trained for sport, that Egyptian pharaohs immortalized in bronze, and that the African wilderness still harbours as one of its most elusive and electrifying hunters.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6549_hero.jpg", "data/details/DSC_6549_detail.jpg", "standing on a fallen tree trunk, alert and looking to the left through dense bush", "An honest safari moment: even in challenging light and movement, the frame preserves the thrill of spotting the Caracal.")'>
           <img src="data/details/DSC_6549_detail.jpg" alt="Detail crop of Caracal" loading="lazy">
           <figcaption>
@@ -1454,6 +1490,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">A blur of gold erupts from the tall grass — in barely three seconds, the cheetah rockets from a standstill to over 100 km/h, its spine coiling and uncoiling like a spring forged by sixty million years of evolution. No land animal on Earth can match this breathtaking acceleration, a feat so demanding that each hunt is a razor-thin gamble between a meal and total exhaustion. To witness a cheetah in full flight across the African plains is to see nature at its most exquisitely engineered and heartbreakingly vulnerable.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6571_hero.jpg", "data/details/DSC_6571_detail.jpg", "resting in the shade among dry grass, one alert and one lying down", "A lovely field-journal image, catching the Cheetah in resting in the shade among dry grass, one alert and one lying down with a clear sense of place.")'>
           <img src="data/details/DSC_6571_detail.jpg" alt="Detail crop of Cheetah" loading="lazy">
           <figcaption>
@@ -1552,6 +1589,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Beneath the glassy stillness of an African river, a pair of cold, amber eyes breaks the surface — and time itself seems to collapse. The Nile crocodile is a living fossil, a 200-kilogram ambush predator whose lineage predates humanity by over 80 million years. With explosive speed and a bite force that can crush bone like chalk, it is the undisputed apex predator of every waterway it inhabits.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6385_hero.jpg", "data/details/DSC_6385_detail.jpg", "basking on the riverbank near the water's edge", "An honest safari moment: even in challenging light and movement, the frame preserves the thrill of spotting the Crocodile.")'>
           <img src="data/details/DSC_6385_detail.jpg" alt="Detail crop of Crocodile" loading="lazy">
           <figcaption>
@@ -1650,6 +1688,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Before the first sliver of sunlight breaches the bushveld horizon, a liquid, jubilant call shatters the stillness — the Dark-capped Bulbul announcing the birth of a new African day. With its sooty crown, bright yellow vent flashing like a lantern, and an inexhaustible repertoire of cheerful notes, this ubiquitous yet utterly charismatic bird is the soundtrack of the southern savanna. Overlooked by many safari-goers scanning for big cats and elephants, the Dark-capped Bulbul rewards the attentive observer with a masterclass in resilience, adaptability, and avian joie de vivre.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6372_hero.jpg", "data/details/DSC_6372_detail.jpg", "perching on a bare branch at the top of a tree", "An honest safari moment: even in challenging light and movement, the frame preserves the thrill of spotting the Dark-capped Bulbul.")'>
           <img src="data/details/DSC_6372_detail.jpg" alt="Detail crop of Dark-capped Bulbul" loading="lazy">
           <figcaption>
@@ -1716,6 +1755,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Jet-black and gleaming like a shard of polished obsidian, the Fork-tailed Drongo perches on an exposed branch, surveying the bushveld with fierce, ruby-red eyes. It is small — barely the weight of a handful of coins — yet it commands the respect of raptors, the obedience of meerkats, and the fear of insects across an entire continent. This is no ordinary songbird: it is a mimic, a thief, and one of the most cunning strategists in the animal kingdom.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6602_hero.jpg", "data/details/DSC_6602_detail.jpg", "perching on a branch holding prey (appears to be a small lizard)", "An honest safari moment: even in challenging light and movement, the frame preserves the thrill of spotting the Fork-tailed Drongo.")'>
           <img src="data/details/DSC_6602_detail.jpg" alt="Detail crop of Fork-tailed Drongo" loading="lazy">
           <figcaption>
@@ -1790,6 +1830,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">In the dappled half-light of the African bush, a pair of magnificent spiral horns rises above the thorn scrub like a slow-turning helix of bone and myth. The Greater Kudu — arguably the most elegant of all antelope — moves through the woodland with a ghostly poise that belies its formidable size, its ash-grey flanks streaked with chalk-white stripes that fracture its silhouette into shadow. To witness a bull kudu step from the treeline at dawn, horns thrown back in regal composure, is to understand why the Shona people once declared this animal a creature of kings.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6325_hero.jpg", "data/details/DSC_6325_detail.jpg", "standing alert in bushveld, accompanied by a zebra nearby", "A lovely field-journal image, catching the Greater Kudu in standing alert in bushveld, accompanied by a zebra nearby with a clear sense of place.")'>
           <img src="data/details/DSC_6325_detail.jpg" alt="Detail crop of Greater Kudu" loading="lazy">
           <figcaption>
@@ -1888,6 +1929,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Like a puff of wood smoke given wings, the Grey Go-away-bird perches atop a sun-bleached acacia and unleashes its nasal, drawn-out &quot;g&#x27;waaaay&quot; — a cry so unmistakable it has earned the bird its common name and the frustration of hunters across southern Africa. With its towering crest, smoky plumage, and bold demeanor, this lourie is less a skulker of the canopy than a self-appointed alarm system for the entire bushveld. Where it sits, nothing approaches unannounced.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6375_hero.jpg", "data/details/DSC_6375_detail.jpg", "perching on a branch in a thorny acacia tree, alert and observing surroundings", "A lovely field-journal image, catching the Grey Go-away-bird in perching on a branch in a thorny acacia tree, alert and observing surroundings with a clear sense of place.")'>
           <img src="data/details/DSC_6375_detail.jpg" alt="Detail crop of Grey Go-away-bird" loading="lazy">
           <figcaption>
@@ -1986,6 +2028,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Standing motionless at the edge of a shallow pan, its hammer-shaped silhouette unmistakable against the fading amber light, the Hamerkop is one of Africa&#x27;s most enigmatic birds — ancient, solitary, and quietly extraordinary. Neither heron nor stork, it occupies its own taxonomic family, a living riddle wrapped in dusky brown plumage. To spot one is to witness a creature that has mystified ornithologists and inspired African folklore for centuries.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6863_hero.jpg", "data/details/DSC_6863_detail.jpg", "standing on a rock at the water's edge, likely hunting for fish or frogs in the shallow flowing water", "A lovely field-journal image, catching the Hamerkop in standing on a rock at the water's edge, likely hunting for fish or frogs in the shallow flowing water with a clear sense of place.")'>
           <img src="data/details/DSC_6863_detail.jpg" alt="Detail crop of Hamerkop" loading="lazy">
           <figcaption>
@@ -2052,6 +2095,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">As dusk settles over an African floodplain, the still water erupts — a massive, glistening head rises like a boulder given life, its cavernous jaws splitting open in a display that can make even a bull crocodile retreat. The hippopotamus, deceptively docile in appearance, is one of the continent&#x27;s most formidable and unpredictable creatures. Weighing as much as a mid-sized SUV and armed with tusk-like canines that can snap a wooden canoe in half, this semi-aquatic giant commands every waterway it inhabits with unquestioned authority.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_7072_hero.jpg", "data/details/DSC_7072_detail.jpg", "partially submerged in water with only heads visible, alert and watching the photographer", "A lovely field-journal image, catching the Hippo in partially submerged in water with only heads visible, alert and watching the photographer with a clear sense of place.")'>
           <img src="data/details/DSC_7072_detail.jpg" alt="Detail crop of Hippo" loading="lazy">
           <figcaption>
@@ -2150,6 +2194,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">With a wizened, pinkish face and a shuffling gait that belies its ecological importance, the Hooded Vulture is the unsung sanitarian of the African landscape. Often overlooked beside its larger, more imposing relatives, this small, dark-plumed raptor navigates bustling village markets and vast savannas alike — a feathered custodian threading between human civilization and the wild. Where death visits the bush, the Hooded Vulture is rarely far behind, arriving with quiet purpose to perform its ancient, indispensable work.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6621_hero.jpg", "data/details/DSC_6621_detail.jpg", "perching on a dead branch, resting and surveying the surroundings", "A lovely field-journal image, catching the Hooded Vulture in perching on a dead branch, resting and surveying the surroundings with a clear sense of place.")'>
           <img src="data/details/DSC_6621_detail.jpg" alt="Detail crop of Hooded Vulture" loading="lazy">
           <figcaption>
@@ -2224,6 +2269,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">In the golden light of an African dawn, a herd of impala erupts into the air — a cascade of chestnut bodies soaring three meters high, twisting mid-flight as if gravity were merely a suggestion. They are the heartbeat of the savanna, the most abundant and arguably the most elegant antelope on the continent, yet their beauty belies a life lived in the perpetual crosshairs of every major predator in Africa. To watch an impala is to witness evolution&#x27;s masterwork of vigilance, grace, and explosive speed.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_7079_hero.jpg", "data/details/DSC_7079_detail.jpg", "standing alert, looking towards the camera in a clearing among bush vegetation", "A lovely field-journal image, catching the Impala in standing alert, looking towards the camera in a clearing among bush vegetation with a clear sense of place.")'>
           <img src="data/details/DSC_7079_detail.jpg" alt="Detail crop of Impala" loading="lazy">
           <figcaption>
@@ -2322,6 +2368,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Like a shard of tropical sky torn loose and set in motion, the Woodland Kingfisher erupts from its perch in a blaze of electric blue and blazing white, its trilling call shattering the stillness of the African bush. This is no waterside fisher — it is a landlocked hunter of the savanna canopy, ambushing insects and lizards with a dagger bill honed by millennia of evolution. To witness one launch from a dead snag into the golden light of a bushveld morning is to understand why kingfishers have captivated human imagination since antiquity.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6608_hero.jpg", "data/details/DSC_6608_detail.jpg", "perching on a tree branch", "An honest safari moment: even in challenging light and movement, the frame preserves the thrill of spotting the Kingfisher.")'>
           <img src="data/details/DSC_6608_detail.jpg" alt="Detail crop of Kingfisher" loading="lazy">
           <figcaption>
@@ -2388,6 +2435,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Like a shard of liquid turquoise flung across a papyrus-lined lagoon, the Malachite Kingfisher strikes the water with surgical precision — and vanishes before the ripples even reach the reeds. Barely larger than a human thumb, this iridescent gem of sub-Saharan waterways is proof that nature reserves some of its most electrifying beauty for the smallest of canvases. To glimpse one perched motionless on a swaying reed, crest blazing in the equatorial sun, is to witness wildness distilled to its most exquisite form.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6648_hero.jpg", "data/details/DSC_6648_detail.jpg", "perching on a bare branch, surveying surroundings", "An honest safari moment: even in challenging light and movement, the frame preserves the thrill of spotting the Malachite Kingfisher.")'>
           <img src="data/details/DSC_6648_detail.jpg" alt="Detail crop of Malachite Kingfisher" loading="lazy">
           <figcaption>
@@ -2486,6 +2534,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Standing nearly five feet tall with a wingspan that rivals the Andean condor, the Marabou Stork cuts a ghoulish silhouette against the African sky — part vulture, part prehistoric phantom. Its bald, scab-pink head, dangling throat sac, and hunched posture have earned it the grim title of &#x27;the undertaker bird.&#x27; Yet beneath its grotesque exterior lies one of Africa&#x27;s most ecologically vital scavengers, a relentless recycler of death that keeps the savanna clean.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6611_hero.jpg", "data/details/DSC_6611_detail.jpg", "perching on a tree branch", "An honest safari moment: even in challenging light and movement, the frame preserves the thrill of spotting the Marabou Stork.")'>
           <img src="data/details/DSC_6611_detail.jpg" alt="Detail crop of Marabou Stork" loading="lazy">
           <figcaption>
@@ -2552,6 +2601,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">In the dappled half-light of a riverine thicket, a male nyala steps into view like a figure conjured from shadow — his slate-grey coat draped in ghostly white stripes, a shaggy dorsal crest rising along his spine, and amber-tipped spiral horns catching the last slant of afternoon sun. He pauses, every muscle tensed between elegance and wariness, and for a breath the entire bushveld seems to hold still with him. To witness a nyala in this moment is to understand why patience in the field is its own reward: the animal reveals itself only to those who wait.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_7033_hero.jpg", "data/details/DSC_7033_detail.jpg", "walking through grassland in a relaxed trot", "A standout frame: the composition brings out the character of the Nyala and the atmosphere of the encounter.")'>
           <img src="data/details/DSC_7033_detail.jpg" alt="Detail crop of Nyala" loading="lazy">
           <figcaption>
@@ -2642,6 +2692,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Motionless among the sun-scorched leaf litter, the puff adder waits — a coiled landmine of muscle, venom, and prehistoric patience. Responsible for more snakebite fatalities across Africa than any other species, Bitis arietans is not the continent&#x27;s longest or most venomous serpent, but it is arguably its most dangerous. When the strike comes, it is a blur of fangs and cytotoxic fury, launched and retracted in less than a quarter of a second.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6395_hero.jpg", "data/details/DSC_6395_detail.jpg", "slithering across a dirt road or path", "An honest safari moment: even in challenging light and movement, the frame preserves the thrill of spotting the Puff Adder.")'>
           <img src="data/details/DSC_6395_detail.jpg" alt="Detail crop of Puff Adder" loading="lazy">
           <figcaption>
@@ -2732,6 +2783,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">With a sweeping curve of blazing yellow casque catching the African sun, the Southern Yellow-billed Hornbill hops across the cracked earth like a creature plucked from a fever dream. It tilts its oversized bill skyward, tosses a scorpion into the air, and swallows it whole — a daily performance played out beneath the canopy of camel thorn and mopane. Beloved as the real-life inspiration behind a famous animated lion&#x27;s sidekick, this bird is far more cunning, resilient, and wild than fiction could ever capture.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6685_hero.jpg", "data/details/DSC_6685_detail.jpg", "pair sitting together on a dirt road, facing each other as if in conversation", "A lovely field-journal image, catching the Southern Yellow-billed Hornbill in pair sitting together on a dirt road, facing each other as if in conversation with a clear sense of place.")'>
           <img src="data/details/DSC_6685_detail.jpg" alt="Detail crop of Southern Yellow-billed Hornbill" loading="lazy">
           <figcaption>
@@ -2830,6 +2882,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">A sharp alarm call slices through the acacia canopy, and in an instant, an entire troop of vervet monkeys erupts into coordinated evasion — some scrambling skyward, others diving for cover. These small, silver-furred primates possess one of the most sophisticated communication systems in the animal kingdom, wielding distinct vocal warnings for eagles, leopards, and snakes. With piercing dark eyes set in striking blue-black faces, vervets are among Africa&#x27;s most intelligent and adaptable survivors.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6318_hero.jpg", "data/details/DSC_6318_detail.jpg", "sitting perched on a wooden fence post, alert and looking to the left", "A lovely field-journal image, catching the Vervet Monkey in sitting perched on a wooden fence post, alert and looking to the left with a clear sense of place.")'>
           <img src="data/details/DSC_6318_detail.jpg" alt="Detail crop of Vervet Monkey" loading="lazy">
           <figcaption>
@@ -2928,6 +2981,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Against a bleached sky, a black silhouette descends on broad, fingered wings — the Black Vulture, nature&#x27;s most unflinching undertaker. With a wrinkled, featherless head forged for plunging into carrion and eyes that miss nothing from soaring heights, Coragyps atratus embodies the raw, unapologetic machinery of ecological renewal. Where death visits, this vulture follows — not as an omen, but as a vital custodian of the living world.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6614_hero.jpg", "data/details/DSC_6614_detail.jpg", "perching on a bare tree branch, resting and surveying the surroundings", "An honest safari moment: even in challenging light and movement, the frame preserves the thrill of spotting the Vulture.")'>
           <img src="data/details/DSC_6614_detail.jpg" alt="Detail crop of Vulture" loading="lazy">
           <figcaption>
@@ -3026,6 +3080,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">With a face only evolution could sculpt — adorned with curving tusks and fleshy warts that serve as armored shields — the warthog charges through the African savanna with its tail held high like a ragged battle flag. Often dismissed as the comic relief of the bush, this tenacious suid is a master survivor, outwitting predators and enduring punishing droughts with a resourcefulness that rivals any of the continent&#x27;s more celebrated icons. Beneath the ungainly exterior lives one of Africa&#x27;s most adaptable and fiercely determined creatures.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_7087_hero.jpg", "data/details/DSC_7087_detail.jpg", "foraging on open ground, walking slowly with head lowered", "A lovely field-journal image, catching the Warthog in foraging on open ground, walking slowly with head lowered with a clear sense of place.")'>
           <img src="data/details/DSC_7087_detail.jpg" alt="Detail crop of Warthog" loading="lazy">
           <figcaption>
@@ -3124,6 +3179,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">Against the shimmering heat of the African savanna, a dark silhouette wheels in patient, widening circles — the White-backed Vulture has spotted what the living have left behind. Descending in a controlled fury of broad wings and outstretched talons, it arrives at a carcass like a priest at an altar, ready to perform the continent&#x27;s most vital and misunderstood sacrament. This is nature&#x27;s great sanitation force: unglamorous, indispensable, and vanishing at a terrifying pace.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6619_hero.jpg", "data/details/DSC_6619_detail.jpg", "perching on a dead tree branch, resting and scanning the surroundings", "A lovely field-journal image, catching the White-backed Vulture in perching on a dead tree branch, resting and scanning the surroundings with a clear sense of place.")'>
           <img src="data/details/DSC_6619_detail.jpg" alt="Detail crop of White-backed Vulture" loading="lazy">
           <figcaption>
@@ -3214,6 +3270,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">With a crown of snow-white down and a piercing, coral-pink bill, the White-headed Vulture commands the African sky like a solitary emperor surveying a crumbling kingdom. Often the first vulture to arrive at a carcass — and the first to be driven away by larger rivals — it is a bird defined by quiet defiance. Critically endangered and increasingly rare, each sighting from a safari vehicle feels like witnessing a ghost drifting between two worlds: the wild Africa that was, and the uncertain one yet to come.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6620_hero.jpg", "data/details/DSC_6620_detail.jpg", "perching on a dead branch, resting and surveying the surroundings", "A lovely field-journal image, catching the White-headed Vulture in perching on a dead branch, resting and surveying the surroundings with a clear sense of place.")'>
           <img src="data/details/DSC_6620_detail.jpg" alt="Detail crop of White-headed Vulture" loading="lazy">
           <figcaption>
@@ -3280,6 +3337,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">No single animal defines the pulse of the African savanna quite like the blue wildebeest — a restless, dust-caked pilgrim whose very existence is an act of endurance. In their millions, they transform the plains into a living river of muscle and horn, surging across crocodile-choked waters and lion-stalked grasslands in a spectacle so vast it can be seen from space. To watch them through a lens is to witness evolution&#x27;s masterwork in motion — and to feel the ancient heartbeat of a continent.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_7119_hero.jpg", "data/details/DSC_7119_detail.jpg", "standing alert in bushveld, looking towards the camera while chewing grass", "A lovely field-journal image, catching the Wildebeest in standing alert in bushveld, looking towards the camera while chewing grass with a clear sense of place.")'>
           <img src="data/details/DSC_7119_detail.jpg" alt="Detail crop of Wildebeest" loading="lazy">
           <figcaption>
@@ -3354,6 +3412,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">A staccato burst of percussion shatters the woodland silence — somewhere high in the canopy, a woodpecker is hammering into heartwood with the force of a tiny jackhammer. Its skull absorbs impacts that would shatter bone in any other creature, each strike a masterclass in evolutionary engineering. With chisel-tipped bills and tongues that wrap around their own skulls, these avian carpenters reshape forests one cavity at a time.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6606_hero.jpg", "data/details/DSC_6606_detail.jpg", "perched on a tree branch, silhouetted against the sky", "An honest safari moment: even in challenging light and movement, the frame preserves the thrill of spotting the Woodpecker.")'>
           <img src="data/details/DSC_6606_detail.jpg" alt="Detail crop of Woodpecker" loading="lazy">
           <figcaption>
@@ -3428,6 +3487,7 @@
     <div class="content-wrap">
       <div class="content-main">
         <p class="intro-text">A thundering column of black and white surges across the Serengeti, hooves hammering sun-scorched earth — the Great Migration is underway, and at its chaotic heart march hundreds of thousands of plains zebras. Each animal wears a coat of stripes as unique as a human fingerprint, a living barcode forged by evolution that dazzles predators, deflects biting flies, and binds family groups in a visual language we are only beginning to decode. To witness a zebra herd at full gallop, dust billowing into an amber sky, is to confront one of Africa&#x27;s most iconic and enduring spectacles.</p>
+        
         <figure class="detail-feature" onclick='openLightbox("data/heroes/DSC_6330_hero.jpg", "data/details/DSC_6330_detail.jpg", "resting in dry grass, with one zebra looking directly at the camera while another grazes nearby", "A standout frame: the composition brings out the character of the Zebra and the atmosphere of the encounter.")'>
           <img src="data/details/DSC_6330_detail.jpg" alt="Detail crop of Zebra" loading="lazy">
           <figcaption>
