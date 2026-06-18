@@ -542,13 +542,15 @@ def build_html(selected: dict, animal_info: dict) -> str:
     <div class="hero-wrap">
       <img class="hero-img" src="{hero_src}" alt="{safe_text(animal)}" loading="lazy">
       <div class="hero-overlay">
-        {'<div class="hero-big5">★ Big Five</div>' if animal in big_five_set else ''}
-        <div class="hero-sci">{sci_name}</div>
-        <h2 class="hero-name">{safe_text(animal)}</h2>
-        <p class="hero-tagline">{tagline}</p>
-        <div class="hero-badge">
-          <span class="hero-score-label">Field favourite</span>
-          <span class="hero-score">{"★" * best_score}</span>
+        <div class="hero-overlay-inner">
+          {'<div class="hero-big5">★ Big Five</div>' if animal in big_five_set else ''}
+          <div class="hero-sci">{sci_name}</div>
+          <h2 class="hero-name">{safe_text(animal)}</h2>
+          <p class="hero-tagline">{tagline}</p>
+          <div class="hero-badge">
+            <span class="hero-score-label">Field favourite</span>
+            <span class="hero-score">{"★" * best_score}</span>
+          </div>
         </div>
       </div>
     </div>
@@ -778,8 +780,17 @@ def build_html(selected: dict, animal_info: dict) -> str:
       bottom: 0;
       left: 0;
       right: 0;
-      padding: 3rem 4rem;
+      padding: 3rem 2rem;
       background: linear-gradient(transparent 0%, rgba(0,0,0,0.5) 30%, rgba(0,0,0,0.85) 100%);
+    }}
+    /* Hero title shares the body content's horizontal layout so their left
+       edges line up exactly (same padding + centred max-width column). */
+    .hero-overlay-inner {{
+      max-width: 1000px;
+      margin: 0 auto;
+    }}
+    @media (min-width: 1100px) {{
+      .hero-overlay {{ padding-left: 160px; padding-right: 160px; }}
     }}
     .hero-sci {{
       font-family: var(--serif);
