@@ -1,8 +1,18 @@
 .venv/
 __pycache__/
 .DS_Store
+
+# ── Raw source photos — never commit (15–17 MB each) ──
 data/new-raw-photos/
+data/new-raw-photo*/
+data/Movies/
+
+# ── Local caches / intermediates ──
+data/classify_cache/
+data/local_embeddings.npz
+data/local_classifications.json
+data/local_selection.json
 data/web_photos/
 
-# Full-res hero source images (site uses data/web instead)
-data/heroes/
+# ── Unused legacy asset dir (site uses data/heroes) ──
+data/web/

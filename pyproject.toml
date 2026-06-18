@@ -1,0 +1,17 @@
+[project]
+name = "safari-photo-logbook"
+version = "0.1.0"
+description = "Local wildlife photo classification, rating, and selection pipeline"
+requires-python = ">=3.12"
+dependencies = [
+  "numpy>=2.0",
+  "pillow>=11.0",
+  "torch>=2.6",
+  "transformers>=4.51",
+]
+
+[project.scripts]
+safari-local = "local_pipeline:main"
+
+[tool.uv]
+package = false
